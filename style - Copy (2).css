@@ -1,0 +1,625 @@
+*{
+    bottom: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto, sans-serif;
+    text-decoration: none;
+    overflow: auto;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: navy;
+    color: white;
+    
+}
+
+
+span{
+    color: rgb(248, 107, 56);
+}
+
+
+.dot p{
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+.btn-top{
+     padding: 12px;
+     background:rgb(248, 112, 62);
+     width: 150px;
+     border: none;
+     color: white;
+     border-radius: 4px;
+     text-decoration: none;
+     text-transform: capitalize;   
+
+}
+.text-area img{
+    padding-right: 180px;
+    width: 380px;
+    margin-left: 35px;
+    text-decoration: none;
+    
+}
+
+.text-area .text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.hero-section{
+    background:linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.001)), url(./people.png);
+    background-position: center;
+    position: cover;
+    min-height: 100vh;
+    margin-top: 30px;
+    padding-top: 30px;
+    /* background-color: white white white rgba(255, 255, 255, 0.701) white; */
+    
+}
+
+.hero-text h1{
+    width: 275px;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+
+
+.hero-text{
+
+    min-height: 100vh;
+}
+
+nav input {
+    display: none;
+}
+
+.hero-text p{
+    width: 270px;
+    text-transform: capitalize;
+    color:black;
+    line-height: 25px;
+    margin-left: 50px;
+    
+}
+
+.btn-img{
+    display: flex;
+    margin: 2px;
+    /* margin-left: 50px; */
+    /* width: 40px; */
+} 
+.next-part .appear hr{
+    margin-left: 120px;
+}
+.her button{
+    margin-left: 20px;
+    /* padding: 5px; */
+}
+
+
+button{
+    padding: 9px 35px;
+    /* width: 150px; */
+    text-transform: uppercase;
+    color: navy;
+    border-radius: 5px;
+    border: 1px solid rgb(45, 45, 153);
+    cursor: pointer;
+    margin-left: 30px;
+    /* margin: 2px; */
+}
+span button{
+    background-color:rgb(248, 112, 62);
+    color: white;
+
+}
+nav label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid blue;
+    padding: 4px;
+    border-radius: 5px;
+    z-index: 5;
+}
+
+
+nav label span{
+    background-color: blue;
+    align-items: center;
+    height: 2px;
+    border: 1px solid blue;
+    width: 22px;
+}
+
+.second-nav{
+    display: flex;
+    gap: 8px;
+    margin-left: -10px;
+    padding: 20px;
+    text-transform: capitalize;
+    background-color: #ffffff81;
+}
+h4{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: rgb(16, 16, 88);
+    
+}
+a{
+    /* margin-right: 200px; */
+    /* margin: 20px; */
+    
+}
+
+.content{
+    gap: 5px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 230px;
+    }
+
+
+
+    .next-part{
+        align-items: center;
+        margin: 28px;
+        text-align: center;
+    }
+
+
+    hr{
+        background-color: rgb(248, 112, 62);
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 66px;
+        color: rgb(16, 16, 88);
+        margin: -20px;
+        margin-left: 492px;
+        margin-bottom: 10px;
+        padding-top: 2px;
+
+    }
+
+    .next-part .appear h2{
+        font-size: 40px;
+        color: rgb(16, 16, 88);
+        text-transform: capitalize;
+    }
+    .next-part .appear p{
+        font-size: 20px;
+        color:  rgb(16, 16, 88);
+    }
+
+
+    .moving{
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        display: flex;
+    }
+
+    .removal{
+        width: 180px;
+        height: 150px;
+        text-align: center;
+        padding: 15px;
+        background: white;
+        align-items: center;
+        border: 1px solid grey;
+        border-radius: 6px;
+        box-shadow: black;
+    }
+
+    .removal h4{
+        display: flex;
+        text-transform: capitalize;
+        padding: 20px;
+        color:rgb(16, 16, 88) ;
+        justify-content: center;
+        font-size: 18px;
+        padding: 0;
+    }
+
+    .removal p{
+        display: flex;
+        color: rgb(16, 16, 88);
+        justify-content: center;
+        text-align: center;
+    }
+
+    .us-choose h2{
+        text-align: center;
+        margin: 15px;
+        color: rgb(16, 16, 88);
+        font-size: 35px;
+
+    }
+
+
+    .why-choose{
+    display: flex;
+    height: 30px;
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+    color:rgb(16, 16, 88) ;
+    padding: 10px;
+    background: white;
+    align-items: center;
+    font-size: 18px;
+    flex-wrap: wrap;
+    
+    }
+
+    .choice{
+     padding: 45px;
+     height: 20px;
+     flex-grow: 1
+
+}
+
+.plan-to-move{
+    display: flex;
+    position: relative;
+}
+
+.move-details span img{
+width: 735px;
+border-radius: 10px;
+height: 338px;
+margin-left: 50px;
+margin-top: 80px;
+}
+
+form{
+    /* position: absolute; */
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 480px;
+    padding: 15px;
+    border-radius: 5px;
+    justify-content: center;
+    margin-right: 20px;
+    height: 337px;
+    align-items: center;
+    border: 1px solid rgba(150, 142, 142, 0.76);
+    margin-top: 78px;
+    
+
+}
+
+label{
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+input{
+    padding: 8px 16px;
+    margin: 8px;
+    /* margin-left: 300; */
+    border-radius: 4px;
+    align-items: center;
+    border: 2px solid rgba(150, 142, 142, 0.76);
+    text-transform: capitalize;
+}
+
+.second-line{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 5px;
+}
+.first-line{
+    margin-left: 2px;
+}
+
+
+
+
+textarea{
+    resize: none;
+    width: 90%;
+    align-items: center;
+    padding: 8px;
+    color: gray;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(150, 142, 142, 0.76);
+
+}
+
+
+form p{
+    text-align: center;
+    color: rgba(71, 69, 69, 0.87);
+    padding: 10px;
+    font-size: 12px;
+}
+
+form button{
+    width: 90%;
+    background: rgb(248, 112, 62);
+    /* width: 90%; */
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: white;
+    
+
+} 
+
+
+
+
+.move-it .move span img{
+   width: 220px;
+   padding-top: 50px;
+
+}
+
+.move-it{
+display: flex;
+justify-content: space-around;
+gap: -30px;
+margin: 10px 0 0 40px;
+
+
+   
+
+}
+.move h3{
+font-size: 15px;
+}
+.move p{
+  font-size: small;   
+}
+
+.moving-item{
+    display: flex;
+
+}
+
+.moving-item{
+    margin: 25px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.moving-item span img{
+    width: 521px;
+}
+
+.how hr{
+ width: 40px;
+ margin-left: -79px;
+ margin-top: 60px;
+ height: 1px;
+ 
+}
+
+
+.how{
+display: flex;
+justify-content: center;
+text-transform: capitalize;
+font-size: 20px;
+margin-right: 90px;
+margin-top: 60px;
+
+}
+
+.how-it-work{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 30px;
+    text-transform: capitalize;
+    flex-wrap: wrap;
+}
+
+.how-it-work span{
+    background-color:rgb(16, 16, 88) ;
+    width: 10px;
+    color: white;
+    padding: 12px;
+    border-radius: 100px;
+    margin-left: 50px;
+    gap: 10px;
+    
+    
+    
+}
+.work{
+    flex-grow: 1;
+}
+.how-it-work h5{
+    font-size: 17px;
+    color: rgb(16, 16, 88);
+    
+    margin-left: 20px;
+}
+.how-it-work p{
+    text-transform: capitalize;
+    width: 120px;
+    font-size: 11px;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(16, 16, 88) ;
+    color: rgba(255, 255, 255, 0.83);
+    border: 2px solid rgb(228, 222, 222); 
+    /* gap:40px; */
+    text-transform: capitalize;
+    /* gap: 50px; */
+    /* border-radius: -10px; */
+    
+}
+
+.footer-logo span img{
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.footer-p{
+  width: 310px;
+    padding-bottom: 120px;
+    margin-left: 35px;
+    text-transform: capitalize;
+    margin-top: 30px;
+
+}
+
+.service{
+    margin-left: 50px;
+}
+
+.servic{
+    margin-left: 50px;
+    /* width: 160px; */
+    /* -moz-window-dragging: 80px; */
+   
+}
+.servi{
+    margin-left: 50px;
+}
+
+.serv{
+    margin-left: 50px;
+   
+}
+
+.serv p{
+    margin-top: 10px;
+}
+
+.servi p{
+    margin-top: -12px;
+}
+
+.servic p{
+    margin-top: -12px;
+}
+
+.service p{
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+
+.remote{
+justify-content:space-between ;
+display: flex;
+text-transform: capitalize;
+font-size: 10px;
+background-color:rgb(16, 16, 88)  ;
+}
+
+
+
+@media(max-width:348px){
+    header{
+        display: none;
+    }
+    .nav-links{
+        position: fixed;
+        /* background: #000; */
+        display: block;
+        flex-direction: column;
+        transition: .5s;
+        /* right: -200%; */
+        top: 0;
+        width: 90%;
+
+
+    }
+
+    #check:checked ~ .nav-links{
+        right: 0;
+    }
+
+    .hero-text p{
+       margin-right: 140px;
+    }
+    .moving-item{
+        display: none;
+    }
+    .move-it{
+        display: none;
+    }
+    form{
+        display: none;
+    }
+    .move-details{
+        display: none;
+    }
+    footer .footer-section{
+        flex-wrap: wrap;
+    }
+    .service{
+        flex-grow: 1;
+    }
+
+    .servic{
+        flex-grow: 1;
+    }
+    .servi{
+        flex-grow: 1;
+    }
+    .serv{
+        flex-grow: 1;
+    }
+    .hero-section{
+        flex-wrap: wrap;
+    }
+    /* .hero-text{
+    width: 100px;
+    } */
+
+    .how-it-works{
+        flex-wrap: wrap;
+    }
+    .work{
+        flex-grow: 1;
+    }
+    .why-choose{
+        display: block;
+    }
+
+    a{
+        display: block;
+        right: 0;
+        position: absolute;
+        
+    }
+}
